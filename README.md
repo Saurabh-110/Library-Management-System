@@ -2,22 +2,22 @@
 
 ## 1. Overview
 
-[cite_start]This project is a comprehensive and scalable Library Management System developed in C++. [cite_start]It is designed using Object-Oriented Programming (OOP) principles to streamline and automate library operations. [cite_start]The system leverages robust C++ data structures like `std::map` for efficient management of books and member records[cite: 4, 18].
+This project is a comprehensive and scalable Library Management System developed in C++. It is designed using Object-Oriented Programming (OOP) principles to streamline and automate library operations. The system leverages robust C++ data structures like `std::map` for efficient management of books and member records.
 
-[cite_start]The application provides a console-based interface for librarians to manage inventory, handle member transactions, and monitor borrowing activities with minimal manual intervention.
+The application provides a console-based interface for librarians to manage inventory, handle member transactions, and monitor borrowing activities with minimal manual intervention.
 
 ## 2. Features
 
 This system includes a variety of features designed for efficient library management:
 
-* [cite_start]**Dynamic Inventory Management**: Tracks the availability of books in real-time, automatically updating the number of copies when a book is borrowed or returned[cite: 15].
-* **Member Management**: Allows for the addition and display of library members. [cite_start]It supports unique member ID formats[cite: 16]. The current implementation validates that member IDs start with "USR".
+* **Dynamic Inventory Management**: Tracks the availability of books in real-time, automatically updating the number of copies when a book is borrowed or returned.
+* **Member Management**: Allows for the addition and display of library members. It supports unique member ID formats. The current implementation validates that member IDs start with "USR".
 * **Borrowing and Returning**: Facilitates the process of issuing and returning books, linking transactions to specific member profiles.
-* [cite_start]**Automated Due-Date Calculation**: Automatically calculates the due date for a borrowed book, which is set to 14 days from the borrowing date[cite: 5, 17, 46].
-* [cite_start]**Overdue Reminders**: Includes a feature to list all books that are past their due date, helping librarians manage timely returns[cite: 5, 17].
-* [cite_start]**Efficient Data Handling**: Uses `std::map` for fast lookups of books (by ISBN) and members (by Member ID), ensuring seamless record management[cite: 4, 18].
-* [cite_start]**Error Handling**: Prevents invalid operations, such as borrowing an unavailable book or using a non-existent member ID, through robust validation checks.
-* [cite_start]**User-Friendly Console Interface**: A simple and intuitive menu-driven interface makes the system easy to operate[cite: 20].
+* **Automated Due-Date Calculation**: Automatically calculates the due date for a borrowed book, which is set to 14 days from the borrowing date.
+* **Overdue Reminders**: Includes a feature to list all books that are past their due date, helping librarians manage timely returns.
+* **Efficient Data Handling**: Uses `std::map` for fast lookups of books (by ISBN) and members (by Member ID), ensuring seamless record management.
+* **Error Handling**: Prevents invalid operations, such as borrowing an unavailable book or using a non-existent member ID, through robust validation checks.
+* **User-Friendly Console Interface**: A simple and intuitive menu-driven interface makes the system easy to operate.
 
 ## 3. How to Compile and Run
 
